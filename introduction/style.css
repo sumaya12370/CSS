@@ -1,0 +1,20 @@
+ /* * {
+    font-size: 70px;
+ } */
+  /*how to make a comment in css */
+ p
+  {color: blue;
+            font-size: 20px;
+
+        }
+        h1 {
+            color: seagreen;
+        }
+        #the_first_p {
+            color: rgb(0, 255, 0);
+        }
+        #the_second_p {
+            color: rgb(0, 0, 0);
+        }
+        
+        
