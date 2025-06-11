@@ -1,0 +1,60 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 2rem;
+  background-color: #f9f9f9;
+  color: #333;
+}
+
+h1 {
+  color: #222;
+  margin-bottom: 2rem;
+}
+
+section {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+h2 {
+  margin-top: 2rem;
+  color: #444;
+}
+
+p {
+  padding: 0.5rem 1rem;
+  background-color: #eef;
+  border-left: 5px solid #88f;
+  margin-bottom: 1rem;
+}
+
+/* 1. Text Color */
+.text-color {
+  color: blue;
+}
+
+/* 2. Text Alignment */
+.text-align {
+  text-align: left;
+}
+
+/* 3. Text Decoration */
+.text-decoration {
+  text-decoration: underline;
+}
+
+/* 4. Text Transformation */
+.text-transform {
+  text-transform: uppercase;
+}
+
+/* 5. Text Indentation */
+.text-indent {
+  text-indent: 50px;
+}
+
+/* 6. Text Shadow */
+.text-shadow {
+  text-shadow: 2px 2px 5px red;
+}

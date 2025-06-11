@@ -1,0 +1,47 @@
+div {
+    background-color: darkblue;
+    height: 300px;
+    width: 340px;
+    color: white;
+
+
+     border-radius: 20px;
+    border: solid 20px red;
+
+    outline-style: solid;
+    outline-color: green;
+    outline-width: 10px;
+    /* outline-offset: 10px;  */
+   
+   
+
+    padding: 30px 15px 30px 15px;
+
+   
+    
+    margin: 30px 15px 30px 14px;
+
+    display: inline-block;
+    
+
+}
+ 
+ h1{
+    color: blue;
+    text-align: center;
+    text-decoration: underline;
+    text-transform: uppercase;
+    font-size: 60px;
+    letter-spacing: 10px;
+    word-spacing:30px ;
+    text-shadow: 5px 8px 5px red;
+    font-family:sofia;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: normal;
+
+ }
+ p{
+    text-indent: 50px;
+    line-height: 30px;
+ }
