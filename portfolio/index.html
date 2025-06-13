@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sumaya Wardhere | Junior Developer Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+
+<body>
+  <header>
+    <h1>Sumaya Wardhere</h1>
+    <p>Junior Web Developer Portfolio</p>
+  </header>
+
+  <nav>
+    <a href="#home">Home</a>
+    <a href="#projects">Projects</a>
+    <a href="#about">About</a>
+    <a href="#contact">Contact</a>
+    <a href="#blog">Blog</a>
+  </nav>
+
+  <section id="home">
+    <h2>Welcome</h2>
+    <p>Hello! I'm Sumaya Wardhere, an aspiring junior web developer passionate about building beautiful and functional web experiences.</p>
+    <img class="portfolio-image" src="images/sumaya.jpg" alt="Sumaya Wardhere">
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="project">
+      <h3>My First Portfolio Website</h3>
+      <p>A simple, elegant website built with HTML, CSS, and JavaScript.</p>
+    </div>
+    <div class="project">
+      <h3>To-Do List App</h3>
+      <p>A responsive to-do list app with local storage capabilities.</p>
+    </div>
+  </section>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p>I am a motivated learner diving into the world of web development. My goal is to become a full-stack developer, and I enjoy learning by doing.</p>
+    <h3>Learning Roadmap</h3>
+    <ul>
+      <li><strong>HTML & CSS</strong>: Foundations of web structure and styling.</li>
+      <li><strong>JavaScript</strong>: Interactive elements and logic.</li>
+      <li><strong>React</strong>: Building dynamic user interfaces.</li>
+      <li><strong>Node.js</strong>: Backend development and APIs.</li>
+      <li><strong>Databases</strong>: Storing and retrieving data (MongoDB, SQL).</li>
+      <li><strong>Git & GitHub</strong>: Version control and collaboration.</li>
+    </ul>
+  </section>
+
+  <section id="contact">
+    <h2>Contact Me</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required>
+      <input type="email" placeholder="Your Email" required>
+      <textarea rows="5" placeholder="Your Message" required></textarea>
+      <button type="submit">Send Message</button>
+    </form>
+    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d19856.640345215683!2d-0.1341843!3d51.509865!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x48761b3333333333%3A0xeeeeeeeeeeeeeeee!2sLondon!5e0!3m2!1sen!2suk!4v1628888888888!5m2!1sen!2suk" allowfullscreen="" loading="lazy"></iframe>
+  </section>
+
+  <section id="blog">
+    <h2>Blog</h2>
+    <article>
+      <h3>Getting Started with Web Development</h3>
+      <p>Starting my journey with HTML, CSS and JavaScript was an exciting step into the world of coding!</p>
+    </article>
+    <article>
+      <h3>My First React App</h3>
+      <p>Learning React was a game-changer. It made building UIs so much easier and more fun!</p>
+    </article>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Sumaya Wardhere. All Rights Reserved.</p>
+  </footer>
+
+  <script>
+    document.querySelector('form').addEventListener('submit', function(e) {
+      e.preventDefault();
+      alert('Thank you for your message!');
+      this.reset();
+    });
+  </script>
+</body>
+
+</html>
